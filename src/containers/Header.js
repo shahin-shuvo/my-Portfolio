@@ -5,7 +5,7 @@ function Header(props){
     return(
 
         <div>
-        {/* <Placeholder/> */}
+        <Placeholder/>
           <header class="desktop-header-3 light fixed-top">
 
                 <div class="container">
