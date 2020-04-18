@@ -1,2 +1,2 @@
 release: python manage.py migrate
-web: gunicorn mysite.wsgi --log-file -
+web: gunicorn shuvo_site.wsgi --log-file -
