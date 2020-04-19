@@ -29,7 +29,7 @@ function Placeholder(){
 			<defs>
 				<filter id="goo">
 					<feGaussianBlur in="SourceGraphic" stdDeviation="6" result="blur" />
-					<feColorMatrix in="blur" values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 18 -7" result="goo" />
+					<feColorMatrix in="blur" values="1 0 0 2 0  0 1 0 0 6  0 0 1 0 -6  0 0 0 18 -7" result="goo" />
 					<feBlend in="SourceGraphic" in2="goo" />
 				</filter>
 			</defs>

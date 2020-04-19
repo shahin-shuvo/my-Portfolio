@@ -727,10 +727,10 @@ header.mobile-header-2 .site-logo img {
   padding: 0;
 }
 .desktop-header-3 .nav-link.active {
-  color: #FFD15C !important;
+  color: #fb9e00 !important;
 }
 .desktop-header-3 .nav-link:hover {
-  color: #FFD15C !important;
+  color: #fb9e00 !important;
 }
 .desktop-header-3 .dropdown-menu {
   position: absolute;
@@ -765,11 +765,16 @@ header.mobile-header-2 .site-logo img {
 }
 .desktop-header-3.light {
   background: #F9F9FF;
-  border-bottom: solid 1px rgba(0, 0, 0, 0.05);
+  border-bottom: solid 4px #fb9e00;
+  -webkit-box-shadow: 0 8px 6px -6px #777;
+       -moz-box-shadow: 0 9px 6px -6px #777;
+            box-shadow: 0 9px 6px -6px #777;
 }
 .desktop-header-3.light .navbar-dark .navbar-nav .nav-link {
   color: #353353;
 }
+
+
 
 /*=================================================================*/
 /*                      SECTIONS                             
@@ -997,7 +1002,7 @@ section.home.light .social-icons li a:hover {
 }
 .portfolio-item .details span.term {
   color: #FFF;
-  background: #FF4C60;
+
   border-bottom-left-radius: 15px;
   border-bottom-right-radius: 15px;
   font-size: 14px;
@@ -1831,7 +1836,7 @@ body.dark footer.footer {
 .timeline span.line {
   position: absolute;
   width: 1px;
-  background-color: #FF4C60;
+  background-color: violet;
   top: 30px;
   bottom: 30px;
   left: 34px;
@@ -1840,13 +1845,28 @@ body.dark footer.footer {
 /* === Social Icons === */
 .social-icons li:not(:last-child) {
   margin-right: 1.5rem;
+  
 }
 .social-icons li a {
-  font-size: 21px;
+  color: #ffffff;
+  font-size: 30px;
+  transition: all 0.5s;
+  box-sizing: border-box;
+  -moz-border-radius: 138px;
+  -webkit-border-radius: 138px;
+  border-radius: 13px;
+  border: 5px solid  #3b5998;
+  text-align: center;
+  background-color:  #ffffff;
+  
 }
 .social-icons.light li a:hover {
-  color: #FFD15C;
+ 
+  background-color: #3b5998;
+  border: 5px solid  #fb9e00;
+  transform: rotate(360deg) scale(1.3);
 }
+
 
 /* === Go to Top === */
 #return-to-top {
@@ -2345,6 +2365,7 @@ body {
   .container {
     max-width: 920px;
   }
+ 
 
   .triangle-left-md:before {
     content: "";
@@ -2415,13 +2436,15 @@ body {
 }
 @media (min-width: 1200px) {
   .container {
-    max-width: 920px;
+    max-width: 1100px;
   }
+ 
 }
 @media (min-width: 1366px) {
   .container {
-    max-width: 1080px;
+    max-width: 1266px;
   }
+
 }
 @media only screen and (max-height: 500px) {
   .scroll-down {
