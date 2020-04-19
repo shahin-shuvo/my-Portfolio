@@ -845,7 +845,7 @@ section.home.light .intro h1 {
   color: #353353;
 }
 section.home.light .intro span {
-  color: #454360;
+  color: white;
 }
 section.home.light .social-icons li a {
   color: #353353;
@@ -1365,13 +1365,13 @@ select.portfolio-filter-mobile {
   z-index: 1;
 }
 .scroll-down.light span {
-  color: #454360;
+  color: white;
 }
 .scroll-down.light .mouse {
-  border-color: #353353;
+  border-color: white;
 }
 .scroll-down.light .mouse .wheel {
-  background: #353353;
+  background: white;
 }
 
 @-webkit-keyframes ani-mouse {

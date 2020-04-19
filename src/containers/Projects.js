@@ -17,9 +17,10 @@ function Projects(){
 			
             <div class="col-md-4 " >
                 <div class="blog-item rounded bg-white shadow-blue wow fadeIn">
-                <h4 style={{color: "blue"}}>
+                <p style={{color: "white",margin: "0 25px",background:"#FF4C60",
+                 borderBottomRightRadius: "15px",  borderBottomLeftRadius: "15px"}}>
                     Django-Python, React, PostgreSQL
-                </h4>
+                </p>
                 <div class="details" style={{textAlign: "justify",textJustify: "inter-word", 
 							}}>
 							<h4 class="my-0 title"><a href="">Online Portal</a></h4>
@@ -37,9 +38,10 @@ function Projects(){
 
             <div class="col-md-4 " >
                 <div class="blog-item rounded bg-white shadow-blue wow fadeIn">
-                <h4 style={{color: "blue"}}>
+                <p style={{color: "white",margin: "0 25px",background:"#FF4C60",
+                 borderBottomRightRadius: "15px",  borderBottomLeftRadius: "15px"}}>
                     Flask-Python, Bootstrap , MongoDB
-                </h4>
+                </p>
                 <div class="details" style={{textAlign: "justify",textJustify: "inter-word", 
 							}}>
 							<h4 class="my-0 title"><a href="">Survey Automation, BRAC</a></h4>
@@ -59,9 +61,10 @@ function Projects(){
             </div>
             <div class="col-md-4 " >
                 <div class="blog-item rounded bg-white shadow-blue wow fadeIn">
-                <h4 style={{color: "blue"}}>
+                <p style={{color: "white",margin: "0 25px",background:"#FF4C60",
+                 borderBottomRightRadius: "15px",  borderBottomLeftRadius: "15px"}}>
                     Android-Java, Firebase
-                </h4>
+                </p>
                 <div class="details" style={{textAlign: "justify",textJustify: "inter-word", 
 							}}>
 							<h4 class="my-0 title"><a >BookS: App for Your Community Library</a></h4>
@@ -82,9 +85,10 @@ function Projects(){
 
             <div class="col-md-4 " >
                 <div class="blog-item rounded bg-white shadow-blue wow fadeIn">
-                <h4 style={{color: "blue"}}>
+                <p style={{color: "white",margin: "0 25px",background:"#FF4C60",
+                 borderBottomRightRadius: "15px",  borderBottomLeftRadius: "15px"}}>
                 Python-Flask, MySQL
-                </h4>
+                </p>
                 <div class="details" style={{textAlign: "justify",textJustify: "inter-word", 
 							}}>
 							<h4 class="my-0 title"><a >Booking System</a></h4>
@@ -105,9 +109,10 @@ function Projects(){
 
             <div class="col-md-4 " >
                 <div class="blog-item rounded bg-white shadow-blue wow fadeIn">
-                <h4 style={{color: "blue"}}>
+                <p style={{color: "white",margin: "0 25px",background:"#FF4C60",
+                 borderBottomRightRadius: "15px",  borderBottomLeftRadius: "15px"}}>
                 Java- Android, Firebase
-                </h4>
+                </p>
                 <div class="details" style={{textAlign: "justify",textJustify: "inter-word", 
 							}}>
 							<h4 class="my-0 title"><a >MediCare</a></h4>

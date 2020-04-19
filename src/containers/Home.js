@@ -3,17 +3,19 @@ import React from "react"
 
 function Home(props){
     return(
-        <section id="home" class="home light d-flex align-items-center" style={{background: "#1d0a34"}}>
+        <section id="home" class="home light d-flex align-items-center" style={{background: "#353353"}}>
 		
 		
-		<div class="container" style={{background: "#1d0a34"}}>
+		<div class="container">
 
 			<div class="intro">
 			
 			<img src="/static/images/myphoto.jpg" width="160px" height="160px" style={{borderRadius:"10%"}} alt="Shuvo" class="mb-4" />
 			
 				<h1 class="mb-2 mt-0" style = {{color: "white"}}>Md Shahin Alom Shuvo</h1>
-				<span style = {{color: "white"}}>I'm a <span class="text-rotating" style = {{color: "white"}} >Full-Stack Developer, Python(django) developer</span>
+				<span style = {{color: "white"}}>I'm a <span class="text-rotating">
+				Full-Stack Developer, Python(django) developer
+				</span>
 				</span>
 
 				
@@ -36,8 +38,8 @@ function Home(props){
 			
 	
 			<div class="scroll-down light">
-				<a href="#about" class="mouse-wrapper">
-					<span>Scroll Down</span>
+				<a href="#education" class="mouse-wrapper">
+					<span  style={{color: "white"}} >Scroll Down</span>
 					<span class="mouse">
 						<span class="wheel"></span>
 					</span>

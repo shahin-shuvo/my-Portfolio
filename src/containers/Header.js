@@ -32,6 +32,9 @@ function Header(props){
                                 <li class="nav-item">
                                 <a href="#projects" class="nav-link">Projects</a>
                                 </li>
+                                <li class="nav-item">
+                                <a href="#contact" class="nav-link">Contact</a>
+                                </li>
                                 <li class="nav-item"><a href="#" class="nav-link"></a></li>
                                
                             </ul>

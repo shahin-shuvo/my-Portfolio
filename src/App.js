@@ -9,7 +9,8 @@ import Skills from "./containers/Skills"
 import Courses from "./containers/Courses"
 import Resarches from "./containers/Researches"
 import Projects from "./containers/Projects"
-import Placeholder from "./components/Placeholder"
+import Contact from "./containers/Contact"
+
 function App() {
   return (
     <div className="App">
@@ -17,7 +18,7 @@ function App() {
         <Header/>
         <main class="content-3" >
                 
-                <div className="row" style={{background: "#1d0a34"}}>
+                <div className="row" style={{background: "#353353"}}>
                 <div id="Clouds">
                   <div class="Cloud Background"></div>
                   <div class="Cloud Background"></div>
@@ -29,10 +30,10 @@ function App() {
                   <div class="Cloud Foreground"></div>
                 </div>
               
-                  <div class="col-md-5" style={{background: "#1d0a34"}}>
+                  <div class="col-md-5" style={{background: "#353353"}}>
                   <Home/>
                   </div>
-                  <div class="col-md-7" style={{background: "#1d0a34"}}>
+                  <div class="col-md-7" style={{background: "#353353"}}>
                   <About/>
                   </div>
                 </div>
@@ -43,7 +44,7 @@ function App() {
                 <Courses/>
                 <Resarches/>
                 <Projects/>
-               
+               <Contact/>
 
 
                 <div class="spacer" data-height="96"></div>
