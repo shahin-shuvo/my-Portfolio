@@ -1,16 +1,16 @@
 import React from "react"
-
+import Placeholder from "../components/Placeholder"
 
 function Home(props){
     return(
-        <section id="home" class="home light d-flex align-items-center" style={{background: "#353353"}}>
+        <section id="home" class="home light d-flex align-items-center" style={{background: "#0c3545"}}>
 		
 		
 		<div class="container">
 
 			<div class="intro">
 			
-			<img src="/static/images/myphoto.jpg" width="160px" height="160px" style={{borderRadius:"10%"}} alt="Shuvo" class="mb-4" />
+			<img src="/static/images/myphoto.jpg" width="120px" height="120px" style={{borderRadius:"10%"}} alt="Shuvo" class="mb-4" />
 			
 				<h1 class="mb-2 mt-0" style = {{color: "white"}}>Md Shahin Alom Shuvo</h1>
 				<span style = {{color: "white"}}>I'm a <span class="text-rotating">
@@ -47,6 +47,8 @@ function Home(props){
 			</div>
 
 		</div>
+		<Placeholder/>
+			
 	
 		
 	</section>

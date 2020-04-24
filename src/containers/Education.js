@@ -22,7 +22,7 @@ function Education(){
 							<div class="content" >
 								<span class="time">2020 - present</span>
 								<h3 class="title">Masters’s Degree</h3>
-                                <p><strong>CGPA -- </strong></p>
+                                <p><strong>CGPA- N/A </strong></p>
 								<p>Department of Computer Science & Engineering</p>
                                 <p><strong>University of Dhaka</strong></p>
 							</div>

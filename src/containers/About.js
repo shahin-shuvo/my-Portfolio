@@ -1,8 +1,9 @@
 import React from "react"
+import Placeholder from "../components/Placeholder"
 
 function About(){
     return(
-        <section id="about" >
+        <section id="about" style={{background: "#0c3545"}}>
 
 		<div class="container" >
 			
@@ -61,6 +62,7 @@ function About(){
 			
 
 		</div>
+	
 		
 	</section>
 	

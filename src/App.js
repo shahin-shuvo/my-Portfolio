@@ -1,6 +1,8 @@
 import React from 'react';
 
 import './App.css';
+
+import Background from "./components/Background"
 import Header from "./containers/Header"
 import Home from "./containers/Home"
 import About from "./containers/About"
@@ -18,22 +20,13 @@ function App() {
         <Header/>
         <main class="content-3" >
                 
-                <div className="row" style={{background: "#353353"}}>
-                <div id="Clouds">
-                  <div class="Cloud Background"></div>
-                  <div class="Cloud Background"></div>
-                  <div class="Cloud Background"></div>
-                  <div class="Cloud Background"></div>
-                  <div class="Cloud Background"></div>
-                  <div class="Cloud Background"></div>
-                  <div class="Cloud Background"></div>
-                  <div class="Cloud Foreground"></div>
-                </div>
-              
-                  <div class="col-md-5" style={{background: "#353353"}}>
+                <div className="row" style={{background: "#0c3545"}}>
+
+                  <Background/>
+                  <div class="col-md-5" >
                   <Home/>
                   </div>
-                  <div class="col-md-7" style={{background: "#353353"}}>
+                  <div class="col-md-7" >
                   <About/>
                   </div>
                 </div>
