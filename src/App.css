@@ -370,3 +370,26 @@ list-style: none;
 }
 
 
+@keyframes bgscroll {
+    from {background-position: 0px 0px, 0px 100%, 0px 50%, 0px 0px;}
+    to {background-position: 7680px 0, 5760px 100%, 3840px 50%, 1920px 0;} 
+    }
+  
+  
+  .edu_background {
+      background-color: whitesmoke;
+      background-image: 
+        url(http://uploads.webflow.com/58403463926ee7da5fc95c2c/5852b7cd05b004e37e42ffee_foreground.png),           url(http://uploads.webflow.com/58403463926ee7da5fc95c2c/5852b7cdfcb377e77683218b_layer-2.png), url(http://uploads.webflow.com/58403463926ee7da5fc95c2c/5852b7cdc3df534d7a2f884c_layer-3.png), url(http://uploads.webflow.com/58403463926ee7da5fc95c2c/5852b7cd340c2d2577e0ecea_layer-4.png);
+      background-position: 0px 0px, 0px 100%, 0px 100%, 0px 0px;
+      background-repeat: repeat-x, repeat-x, repeat-x, repeat-x;
+      width:100%;
+      height:100%;
+      padding-bottom: 70px;
+        
+      animation-name: bgscroll;
+      animation-duration: 200s;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+  }
+  
+  

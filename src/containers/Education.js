@@ -3,7 +3,7 @@ import React from "react"
 
 function Education(){
     return(
-        <section id="education">
+        <section id="education" className="edu_background">
 
 		<div class="container">
 		
@@ -26,6 +26,7 @@ function Education(){
 								<p>Department of Computer Science & Engineering</p>
                                 <p><strong>University of Dhaka</strong></p>
 							</div>
+							<span class="line"></span>
 						</div>
                        
 
@@ -38,10 +39,11 @@ function Education(){
 								<p>Department of Computer Science & Engineering</p>
                                 <p><strong>University of Dhaka</strong></p>
 							</div>
+							<span class="line" style={{background:"#db3e00"}}></span>
 						</div>
 
 					
-						<span class="line"></span>
+						
 
 					</div>
 
@@ -64,6 +66,7 @@ function Education(){
 								<p>Shaeed Syed Nazrul Islam College</p>
                                 <p> Mymensingh</p>
 							</div>
+							<span class="line" style={{background:"#9900ef"}}></span>
 						</div>
 
 					
@@ -75,9 +78,10 @@ function Education(){
 								<p>Cantonment Public School & College</p>
                                 <p> Mymensingh</p>
 							</div>
+							<span class="line" style={{background:"#37d67a"}}></span>
 						</div>
 					
-						<span class="line"></span>
+						
 
 					</div>
 
