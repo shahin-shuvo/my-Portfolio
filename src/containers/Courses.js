@@ -1,7 +1,35 @@
 import React from "react"
 
+const deepList = [
+	{
+		name: "Neural Networks and Deep Learning",
+		certificate: "https://coursera.org/share/1d03984f5fbdf30ae0908ef77a657ba7"
+	},
+	{
+		name: "Improving Deep Neural Networks: Hyperparameter tuning, Regularization and Optimization",
+		certificate: "https://coursera.org/share/9b7be1a5e6558a33127d73eb70a698dd"
+	},
+	{
+		name: "Structuring Machine Learning Projects",
+		certificate: "https://coursera.org/share/01f2ea89e41a6f735ce296f108f69029"
+	},
+	{
+		name: "Convolutional Neural Networks",
+		certificate: "https://coursera.org/share/819d757f4227ee50bb9d42f8041fc1db"
+	},
+	{
+		name: "Sequence Models",
+		certificate: "https://coursera.org/share/35c00df0163b31335aabc05a55aaa9a3"
+	},
 
+]
+const Listitems = []
 function Courses(){
+	// for deep learning course item
+	for (const [index, value] of deepList.entries()) {
+		Listitems.push(<li><a target="blank" href= {value["certificate"]}>
+		{value["name"]}</a></li> )
+	  }
     return(
         <section id="courses">
 
@@ -16,22 +44,19 @@ function Courses(){
 
 				<div class="col-md-6 " style={{textAlign: "left"}}>
 					
-				
-					
                        
                         <div class="timeline-container wow fadeInUp">
 							<div class="content" >
-								<span class="time">2020- Coursera </span>
-								<h5 class="title">Deep Learning and Neural Network</h5>
-								<p><a target="blank" href="https://coursera.org/share/1d03984f5fbdf30ae0908ef77a657ba7">View Certificate</a></p>  
+								<span class="time">March-May, 2020 </span>
+								<h5 class="title">Specialization on Deep Learning. (Coursera)</h5>
+								<p><a target="blank" href="https://www.coursera.org/account/accomplishments/specialization/certificate/LLAC98TK2J74">View Certificate</a></p>  
+								 I have completed 5 courses on Deep Learning through out this specialization.
+
+								 <ul style= {{ paddingLeft: "30px"}}>
+									{Listitems}
+								 </ul>
 							</div>
-                            <div class="content" >
-								
-								<h5 class="title">Improving Deep Neural Networks:
-                                    Hyperparameter tuning, Regularization and
-                                    Optimization</h5>
-                                    <p><a target="blank" href="https://coursera.org/share/9b7be1a5e6558a33127d73eb70a698dd">View Certificate</a></p>   
-							</div>
+                            
 						</div>
                        
 						<span class="line"></span>
